@@ -6,10 +6,10 @@ class Machine extends React.Component {
         : "You lose!";
 
     return (
-      <div>
+      <div className="Machine">
         <h1>Slot Machine!</h1>
         <h2>{this.props.s1 + this.props.s2 + this.props.s3}</h2>
-        <h3>{result}</h3>
+        <h3 style={{ color: "blue" }}>{result}</h3>
       </div>
     );
   }

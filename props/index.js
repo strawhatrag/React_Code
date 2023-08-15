@@ -2,7 +2,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Friend name="Luffy" hobbies={["eating", "fighting", "laughing"]} />
+        <Machine s1="🍇" s2="🍒" s3="🍒" />
+        <Machine s1="🍒" s2="🍒" s3="🍒" />
+        <Machine s1="🍇" s2="🍒" s3="🍊" />
       </div>
     );
   }
