@@ -1,10 +1,14 @@
 class App extends React.Component {
   render() {
-    <div>
-      <Hello to="rag" from="paul" />
-    </div>;
+    return (
+      <div>
+        <h1>hi</h1>
+        {/* passing data  var="value" -- as props*/}
+        <Hello to="rag" from="paul" />
+        <Hello to="dom" from="paul" />
+      </div>
+    );
   }
 }
 
-// where to render what component
 ReactDOM.render(<App />, document.getElementById("root"));
