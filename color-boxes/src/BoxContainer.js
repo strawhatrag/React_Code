@@ -23,6 +23,7 @@ export default class BoxContainer extends Component {
       "#9B59B6", // Normal contrast - Amethyst
     ],
   };
+
   render() {
     const boxes = Array.from({ length: this.props.numBoxes }).map(() => (
       <Box colors={this.props.allColors} />
